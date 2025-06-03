@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/TP-AboutMe">
         <div>
           <Routes>
             <Route path="/" element={<AboutMe/>}></Route>
